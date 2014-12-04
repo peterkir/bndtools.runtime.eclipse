@@ -1,2 +1,0 @@
--buildpath: org.eclipse.osgi
--sub: *.bnd
