@@ -1,0 +1,2373 @@
+<?xml version='1.0' encoding='utf-8'?>
+<repository increment='1417675977596' name='Local' xmlns='http://www.osgi.org/xmlns/repository/v1.0.0'>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.eclipse.osgi'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='singleton' value='true'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='ed26339d7dbb640d9219a9bf9560538ecb07741318fdc004c2f4872f3a91b4db'/>
+      <attribute name='url' value='org.eclipse.osgi/org.eclipse.osgi-3.6.2.jar'/>
+      <attribute name='size' type='Long' value='1148372'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.event'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.console'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.eventmgr'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.log'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.launch'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.datalocation'/>
+      <attribute name='version' type='Version' value='1.3.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.debug'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.environment'/>
+      <attribute name='version' type='Version' value='1.3.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.localization'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.pluginconversion'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.resolver'/>
+      <attribute name='version' type='Version' value='1.4.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.runnable'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.security'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.urlconversion'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.signedcontent'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.storagemanager'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.util'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework'/>
+      <attribute name='version' type='Version' value='1.5.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.launch'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.hooks.service'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.condpermadmin'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.framework'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.packageadmin'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.permissionadmin'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.startlevel'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.url'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.util.tracker'/>
+      <attribute name='version' type='Version' value='1.4.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.util.tracker'/>
+      <attribute name='version' type='Version' value='1.4.2'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.core.runtime.adaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-friends' value='org.eclipse.core.runtime'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.core.runtime.internal.adaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.core.runtime.internal.stats'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-friends' value='org.eclipse.core.runtime'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.baseadaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.baseadaptor.bundlefile'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.baseadaptor.hooks'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.baseadaptor.loader'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.adaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.debug'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.core'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.protocol'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.protocol.bundleentry'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.protocol.bundleresource'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.protocol.reference'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.reliablefile'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.util'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.baseadaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.composite'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.loader'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.loader.buddy'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.module'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.profile'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.resolver'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.serviceregistry'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.permadmin'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.provisional.service.security'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-friends' value='org.eclipse.equinox.security.ui'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.provisional.verifier'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-friends' value='org.eclipse.update.core,org.eclipse.ui.workbench,org.eclipse.equinox.p2.artifact.repository'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.service.security'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-friends' value='org.eclipse.equinox.security.ui'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.signedcontent'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.internal.composite'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.service'>
+      <attribute name='objectClass' value='org.osgi.service.packageadmin.PackageAdmin'/>
+      <directive name='effective' value='active'/>
+    </capability>
+    <capability namespace='osgi.service'>
+      <attribute name='objectClass' value='org.osgi.service.permissionadmin.PermissionAdmin'/>
+      <directive name='effective' value='active'/>
+    </capability>
+    <capability namespace='osgi.service'>
+      <attribute name='objectClass' value='org.osgi.service.startlevel.StartLevel'/>
+      <directive name='effective' value='active'/>
+    </capability>
+    <capability namespace='osgi.service'>
+      <attribute name='objectClass' value='org.eclipse.osgi.service.debug.DebugOptions'/>
+      <directive name='effective' value='active'/>
+    </capability>
+    <capability namespace='osgi.contract'>
+      <attribute name='osgi.contract' value='OSGiFramework'/>
+      <attribute name='version' type='Version' value='4.2.0'/>
+      <directive name='uses' value='org.eclipse.osgi.event,org.eclipse.osgi.framework.console,org.eclipse.osgi.framework.eventmgr,org.eclipse.osgi.framework.log,org.eclipse.osgi.launch,org.eclipse.osgi.service.datalocation,org.eclipse.osgi.service.debug,org.eclipse.osgi.service.environment,org.eclipse.osgi.service.localization,org.eclipse.osgi.service.pluginconversion,org.eclipse.osgi.service.resolver,org.eclipse.osgi.service.runnable,org.eclipse.osgi.service.security,org.eclipse.osgi.service.urlconversion,org.eclipse.osgi.signedcontent,org.eclipse.osgi.storagemanager,org.eclipse.osgi.util,org.osgi.framework,org.osgi.framework.launch,org.osgi.framework.hooks.service,org.osgi.service.condpermadmin,org.osgi.service.framework,org.osgi.service.packageadmin,org.osgi.service.permissionadmin,org.osgi.service.startlevel,org.osgi.service.url,org.osgi.util.tracker,org.osgi.util.tracker,org.eclipse.core.runtime.adaptor,org.eclipse.core.runtime.internal.adaptor,org.eclipse.core.runtime.internal.stats,org.eclipse.osgi.baseadaptor,org.eclipse.osgi.baseadaptor.bundlefile,org.eclipse.osgi.baseadaptor.hooks,org.eclipse.osgi.baseadaptor.loader,org.eclipse.osgi.framework.adaptor,org.eclipse.osgi.framework.debug,org.eclipse.osgi.framework.internal.core,org.eclipse.osgi.framework.internal.protocol,org.eclipse.osgi.framework.internal.protocol.bundleentry,org.eclipse.osgi.framework.internal.protocol.bundleresource,org.eclipse.osgi.framework.internal.protocol.reference,org.eclipse.osgi.framework.internal.reliablefile,org.eclipse.osgi.framework.util,org.eclipse.osgi.internal.baseadaptor,org.eclipse.osgi.internal.composite,org.eclipse.osgi.internal.loader,org.eclipse.osgi.internal.loader.buddy,org.eclipse.osgi.internal.module,org.eclipse.osgi.internal.profile,org.eclipse.osgi.internal.resolver,org.eclipse.osgi.internal.serviceregistry,org.eclipse.osgi.internal.permadmin,org.eclipse.osgi.internal.provisional.service.security,org.eclipse.osgi.internal.provisional.verifier,org.eclipse.osgi.internal.service.security,org.eclipse.osgi.internal.signedcontent,org.eclipse.osgi.service.internal.composite'/>
+    </capability>
+    <requirement namespace='osgi.ee'>
+      <directive name='filter' value='(|(&amp;(osgi.ee=JavaSE)(version=1.5))(&amp;(osgi.ee=OSGi/Minimum)(version=1.2)))'/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.eclipse.osgi'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='singleton' value='true'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='58f6d4588a97d230d53fc49b4e5e8fadb9c70e23f432519e02296ed9601464fa'/>
+      <attribute name='url' value='org.eclipse.osgi/org.eclipse.osgi-3.10.0.jar'/>
+      <attribute name='size' type='Long' value='1264040'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.core.runtime.adaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-friends' value='org.eclipse.core.runtime'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.core.runtime.internal.adaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.equinox.log'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.container'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.container.builders'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.container.namespaces'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.console'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.eventmgr'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.reliablefile'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.log'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.util'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.debug'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.framework'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.hookregistry'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-friends' value='org.eclipse.osgi.tests'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.loader'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.loader.buddy'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.loader.classpath'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.loader.sources'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.location'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.messages'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.provisional.service.security'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-friends' value='org.eclipse.equinox.security.ui'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.provisional.verifier'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-friends' value='org.eclipse.update.core,org.eclipse.ui.workbench,org.eclipse.equinox.p2.artifact.repository'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.service.security'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-friends' value='org.eclipse.equinox.security.ui'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.serviceregistry'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.signedcontent'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.url'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.launch'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.report.resolution'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.datalocation'/>
+      <attribute name='version' type='Version' value='1.3.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.debug'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.environment'/>
+      <attribute name='version' type='Version' value='1.3.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.localization'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.pluginconversion'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.resolver'/>
+      <attribute name='version' type='Version' value='1.6.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.runnable'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.security'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.urlconversion'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.signedcontent'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.storage'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-friends' value='org.eclipse.osgi.tests'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.storage.bundlefile'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.storage.url.reference'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.storagemanager'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.util'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.dto'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework'/>
+      <attribute name='version' type='Version' value='1.8.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.dto'/>
+      <attribute name='version' type='Version' value='1.8.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.hooks.bundle'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.hooks.resolver'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.hooks.service'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.hooks.weaving'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.launch'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.namespace'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.startlevel'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.startlevel.dto'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.wiring'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.wiring.dto'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.resource'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.resource.dto'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.condpermadmin'/>
+      <attribute name='version' type='Version' value='1.1.1'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.log'/>
+      <attribute name='version' type='Version' value='1.3.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.packageadmin'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.permissionadmin'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.resolver'/>
+      <attribute name='version' type='Version' value='1.0.1'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.startlevel'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.url'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.util.tracker'/>
+      <attribute name='version' type='Version' value='1.5.1'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.service'>
+      <attribute name='objectClass' value='org.osgi.service.packageadmin.PackageAdmin'/>
+      <directive name='effective' value='active'/>
+    </capability>
+    <capability namespace='osgi.service'>
+      <attribute name='objectClass' value='org.osgi.service.permissionadmin.PermissionAdmin'/>
+      <directive name='effective' value='active'/>
+    </capability>
+    <capability namespace='osgi.service'>
+      <attribute name='objectClass' value='org.osgi.service.startlevel.StartLevel'/>
+      <directive name='effective' value='active'/>
+    </capability>
+    <capability namespace='osgi.service'>
+      <attribute name='objectClass' value='org.eclipse.osgi.service.debug.DebugOptions'/>
+      <directive name='effective' value='active'/>
+    </capability>
+    <capability namespace='osgi.contract'>
+      <attribute name='osgi.contract' value='OSGiFramework'/>
+      <directive name='uses' value='org.eclipse.core.runtime.adaptor,org.eclipse.core.runtime.internal.adaptor,org.eclipse.equinox.log,org.eclipse.osgi.container,org.eclipse.osgi.container.builders,org.eclipse.osgi.container.namespaces,org.eclipse.osgi.framework.console,org.eclipse.osgi.framework.eventmgr,org.eclipse.osgi.framework.internal.reliablefile,org.eclipse.osgi.framework.log,org.eclipse.osgi.framework.util,org.eclipse.osgi.internal.debug,org.eclipse.osgi.internal.framework,org.eclipse.osgi.internal.hookregistry,org.eclipse.osgi.internal.loader,org.eclipse.osgi.internal.loader.buddy,org.eclipse.osgi.internal.loader.classpath,org.eclipse.osgi.internal.loader.sources,org.eclipse.osgi.internal.location,org.eclipse.osgi.internal.messages,org.eclipse.osgi.internal.provisional.service.security,org.eclipse.osgi.internal.provisional.verifier,org.eclipse.osgi.internal.service.security,org.eclipse.osgi.internal.serviceregistry,org.eclipse.osgi.internal.signedcontent,org.eclipse.osgi.internal.url,org.eclipse.osgi.launch,org.eclipse.osgi.report.resolution,org.eclipse.osgi.service.datalocation,org.eclipse.osgi.service.debug,org.eclipse.osgi.service.environment,org.eclipse.osgi.service.localization,org.eclipse.osgi.service.pluginconversion,org.eclipse.osgi.service.resolver,org.eclipse.osgi.service.runnable,org.eclipse.osgi.service.security,org.eclipse.osgi.service.urlconversion,org.eclipse.osgi.signedcontent,org.eclipse.osgi.storage,org.eclipse.osgi.storage.bundlefile,org.eclipse.osgi.storage.url.reference,org.eclipse.osgi.storagemanager,org.eclipse.osgi.util,org.osgi.dto,org.osgi.framework,org.osgi.framework.dto,org.osgi.framework.hooks.bundle,org.osgi.framework.hooks.resolver,org.osgi.framework.hooks.service,org.osgi.framework.hooks.weaving,org.osgi.framework.launch,org.osgi.framework.namespace,org.osgi.framework.startlevel,org.osgi.framework.startlevel.dto,org.osgi.framework.wiring,org.osgi.framework.wiring.dto,org.osgi.resource,org.osgi.resource.dto,org.osgi.service.condpermadmin,org.osgi.service.log,org.osgi.service.packageadmin,org.osgi.service.permissionadmin,org.osgi.service.resolver,org.osgi.service.startlevel,org.osgi.service.url,org.osgi.util.tracker'/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.eclipse.osgi'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='singleton' value='true'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='531d2c3c3d977ce0dc2aa5662034fadfb05c72e6ecb831e26495091ede09e0c9'/>
+      <attribute name='url' value='org.eclipse.osgi/org.eclipse.osgi-3.5.2.jar'/>
+      <attribute name='size' type='Long' value='1127661'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.event'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.console'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.eventmgr'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.log'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.launch'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.datalocation'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.debug'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.environment'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.localization'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.pluginconversion'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.resolver'/>
+      <attribute name='version' type='Version' value='1.3.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.runnable'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.security'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.urlconversion'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.signedcontent'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.storagemanager'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.util'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework'/>
+      <attribute name='version' type='Version' value='1.5.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.launch'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.hooks.service'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.condpermadmin'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.framework'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.packageadmin'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.permissionadmin'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.startlevel'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.url'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.util.tracker'/>
+      <attribute name='version' type='Version' value='1.4.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.util.tracker'/>
+      <attribute name='version' type='Version' value='1.4.2'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.core.runtime.adaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-friends' value='org.eclipse.core.runtime'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.core.runtime.internal.adaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.core.runtime.internal.stats'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-friends' value='org.eclipse.core.runtime'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.baseadaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.baseadaptor.bundlefile'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.baseadaptor.hooks'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.baseadaptor.loader'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.adaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.debug'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.core'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.protocol'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.protocol.bundleentry'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.protocol.bundleresource'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.protocol.reference'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.reliablefile'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.util'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.baseadaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.composite'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.loader'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.loader.buddy'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.module'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.profile'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.resolver'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.serviceregistry'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.permadmin'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.provisional.service.security'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-friends' value='org.eclipse.equinox.security.ui'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.provisional.verifier'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-friends' value='org.eclipse.update.core,org.eclipse.ui.workbench,org.eclipse.equinox.p2.artifact.repository'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.service.security'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-friends' value='org.eclipse.equinox.security.ui'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.signedcontent'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.internal.composite'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.service'>
+      <attribute name='objectClass' value='org.osgi.service.packageadmin.PackageAdmin'/>
+      <directive name='effective' value='active'/>
+    </capability>
+    <capability namespace='osgi.service'>
+      <attribute name='objectClass' value='org.osgi.service.permissionadmin.PermissionAdmin'/>
+      <directive name='effective' value='active'/>
+    </capability>
+    <capability namespace='osgi.service'>
+      <attribute name='objectClass' value='org.osgi.service.startlevel.StartLevel'/>
+      <directive name='effective' value='active'/>
+    </capability>
+    <capability namespace='osgi.service'>
+      <attribute name='objectClass' value='org.eclipse.osgi.service.debug.DebugOptions'/>
+      <directive name='effective' value='active'/>
+    </capability>
+    <capability namespace='osgi.contract'>
+      <attribute name='osgi.contract' value='OSGiFramework'/>
+      <attribute name='version' type='Version' value='4.2.0'/>
+      <directive name='uses' value='org.eclipse.osgi.event,org.eclipse.osgi.framework.console,org.eclipse.osgi.framework.eventmgr,org.eclipse.osgi.framework.log,org.eclipse.osgi.launch,org.eclipse.osgi.service.datalocation,org.eclipse.osgi.service.debug,org.eclipse.osgi.service.environment,org.eclipse.osgi.service.localization,org.eclipse.osgi.service.pluginconversion,org.eclipse.osgi.service.resolver,org.eclipse.osgi.service.runnable,org.eclipse.osgi.service.security,org.eclipse.osgi.service.urlconversion,org.eclipse.osgi.signedcontent,org.eclipse.osgi.storagemanager,org.eclipse.osgi.util,org.osgi.framework,org.osgi.framework.launch,org.osgi.framework.hooks.service,org.osgi.service.condpermadmin,org.osgi.service.framework,org.osgi.service.packageadmin,org.osgi.service.permissionadmin,org.osgi.service.startlevel,org.osgi.service.url,org.osgi.util.tracker,org.osgi.util.tracker,org.eclipse.core.runtime.adaptor,org.eclipse.core.runtime.internal.adaptor,org.eclipse.core.runtime.internal.stats,org.eclipse.osgi.baseadaptor,org.eclipse.osgi.baseadaptor.bundlefile,org.eclipse.osgi.baseadaptor.hooks,org.eclipse.osgi.baseadaptor.loader,org.eclipse.osgi.framework.adaptor,org.eclipse.osgi.framework.debug,org.eclipse.osgi.framework.internal.core,org.eclipse.osgi.framework.internal.protocol,org.eclipse.osgi.framework.internal.protocol.bundleentry,org.eclipse.osgi.framework.internal.protocol.bundleresource,org.eclipse.osgi.framework.internal.protocol.reference,org.eclipse.osgi.framework.internal.reliablefile,org.eclipse.osgi.framework.util,org.eclipse.osgi.internal.baseadaptor,org.eclipse.osgi.internal.composite,org.eclipse.osgi.internal.loader,org.eclipse.osgi.internal.loader.buddy,org.eclipse.osgi.internal.module,org.eclipse.osgi.internal.profile,org.eclipse.osgi.internal.resolver,org.eclipse.osgi.internal.serviceregistry,org.eclipse.osgi.internal.permadmin,org.eclipse.osgi.internal.provisional.service.security,org.eclipse.osgi.internal.provisional.verifier,org.eclipse.osgi.internal.service.security,org.eclipse.osgi.internal.signedcontent,org.eclipse.osgi.service.internal.composite'/>
+    </capability>
+    <requirement namespace='osgi.ee'>
+      <directive name='filter' value='(|(&amp;(osgi.ee=JavaSE)(version=1.5))(&amp;(osgi.ee=OSGi/Minimum)(version=1.2)))'/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.eclipse.osgi'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='singleton' value='true'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='17d1a8695b7d72d9467281c59acd8064b22c773d52014ba951597c99b9dbd251'/>
+      <attribute name='url' value='org.eclipse.osgi/org.eclipse.osgi-3.8.2.jar'/>
+      <attribute name='size' type='Long' value='1397588'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.event'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.console'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.eventmgr'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.log'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.launch'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.datalocation'/>
+      <attribute name='version' type='Version' value='1.3.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.debug'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.environment'/>
+      <attribute name='version' type='Version' value='1.3.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.localization'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.pluginconversion'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.resolver'/>
+      <attribute name='version' type='Version' value='1.6.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.resolver.extras'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-friends' value='org.eclipse.equinox.resolver'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.runnable'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.security'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.urlconversion'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.signedcontent'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.storagemanager'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.util'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.equinox.log'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework'/>
+      <attribute name='version' type='Version' value='1.7.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.launch'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.hooks.bundle'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.hooks.resolver'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.hooks.service'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.hooks.weaving'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.namespace'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.startlevel'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.wiring'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.resource'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.condpermadmin'/>
+      <attribute name='version' type='Version' value='1.1.1'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.framework'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.log'/>
+      <attribute name='version' type='Version' value='1.3.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.packageadmin'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.permissionadmin'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.startlevel'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.url'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.util.tracker'/>
+      <attribute name='version' type='Version' value='1.5.1'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.core.runtime.adaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-friends' value='org.eclipse.core.runtime'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.core.runtime.internal.adaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.core.runtime.internal.stats'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-friends' value='org.eclipse.core.runtime'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.baseadaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.baseadaptor.bundlefile'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.baseadaptor.hooks'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.baseadaptor.loader'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.adaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.debug'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.core'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.protocol'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.protocol.bundleentry'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.protocol.bundleresource'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.protocol.reference'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.reliablefile'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.util'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.baseadaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.composite'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.loader'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.loader.buddy'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.module'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.profile'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.resolver'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.serviceregistry'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.permadmin'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.provisional.service.security'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-friends' value='org.eclipse.equinox.security.ui'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.provisional.verifier'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-friends' value='org.eclipse.update.core,org.eclipse.ui.workbench,org.eclipse.equinox.p2.artifact.repository'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.service.security'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-friends' value='org.eclipse.equinox.security.ui'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.signedcontent'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.internal.composite'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.equinox.log.internal'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.service'>
+      <attribute name='objectClass' value='org.osgi.service.packageadmin.PackageAdmin'/>
+      <directive name='effective' value='active'/>
+    </capability>
+    <capability namespace='osgi.service'>
+      <attribute name='objectClass' value='org.osgi.service.permissionadmin.PermissionAdmin'/>
+      <directive name='effective' value='active'/>
+    </capability>
+    <capability namespace='osgi.service'>
+      <attribute name='objectClass' value='org.osgi.service.startlevel.StartLevel'/>
+      <directive name='effective' value='active'/>
+    </capability>
+    <capability namespace='osgi.service'>
+      <attribute name='objectClass' value='org.eclipse.osgi.service.debug.DebugOptions'/>
+      <directive name='effective' value='active'/>
+    </capability>
+    <capability namespace='osgi.contract'>
+      <attribute name='osgi.contract' value='OSGiFramework'/>
+      <attribute name='version' type='Version' value='5.0.0'/>
+      <directive name='uses' value='org.eclipse.osgi.event,org.eclipse.osgi.framework.console,org.eclipse.osgi.framework.eventmgr,org.eclipse.osgi.framework.log,org.eclipse.osgi.launch,org.eclipse.osgi.service.datalocation,org.eclipse.osgi.service.debug,org.eclipse.osgi.service.environment,org.eclipse.osgi.service.localization,org.eclipse.osgi.service.pluginconversion,org.eclipse.osgi.service.resolver,org.eclipse.osgi.service.resolver.extras,org.eclipse.osgi.service.runnable,org.eclipse.osgi.service.security,org.eclipse.osgi.service.urlconversion,org.eclipse.osgi.signedcontent,org.eclipse.osgi.storagemanager,org.eclipse.osgi.util,org.eclipse.equinox.log,org.osgi.framework,org.osgi.framework.launch,org.osgi.framework.hooks.bundle,org.osgi.framework.hooks.resolver,org.osgi.framework.hooks.service,org.osgi.framework.hooks.weaving,org.osgi.framework.namespace,org.osgi.framework.startlevel,org.osgi.framework.wiring,org.osgi.resource,org.osgi.service.condpermadmin,org.osgi.service.framework,org.osgi.service.log,org.osgi.service.packageadmin,org.osgi.service.permissionadmin,org.osgi.service.startlevel,org.osgi.service.url,org.osgi.util.tracker,org.eclipse.core.runtime.adaptor,org.eclipse.core.runtime.internal.adaptor,org.eclipse.core.runtime.internal.stats,org.eclipse.osgi.baseadaptor,org.eclipse.osgi.baseadaptor.bundlefile,org.eclipse.osgi.baseadaptor.hooks,org.eclipse.osgi.baseadaptor.loader,org.eclipse.osgi.framework.adaptor,org.eclipse.osgi.framework.debug,org.eclipse.osgi.framework.internal.core,org.eclipse.osgi.framework.internal.protocol,org.eclipse.osgi.framework.internal.protocol.bundleentry,org.eclipse.osgi.framework.internal.protocol.bundleresource,org.eclipse.osgi.framework.internal.protocol.reference,org.eclipse.osgi.framework.internal.reliablefile,org.eclipse.osgi.framework.util,org.eclipse.osgi.internal.baseadaptor,org.eclipse.osgi.internal.composite,org.eclipse.osgi.internal.loader,org.eclipse.osgi.internal.loader.buddy,org.eclipse.osgi.internal.module,org.eclipse.osgi.internal.profile,org.eclipse.osgi.internal.resolver,org.eclipse.osgi.internal.serviceregistry,org.eclipse.osgi.internal.permadmin,org.eclipse.osgi.internal.provisional.service.security,org.eclipse.osgi.internal.provisional.verifier,org.eclipse.osgi.internal.service.security,org.eclipse.osgi.internal.signedcontent,org.eclipse.osgi.service.internal.composite,org.eclipse.equinox.log.internal'/>
+    </capability>
+    <requirement namespace='osgi.ee'>
+      <directive name='filter' value='(|(&amp;(osgi.ee=JavaSE)(version=1.5))(&amp;(osgi.ee=OSGi/Minimum)(version=1.2)))'/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.eclipse.osgi.source'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='a18ce1c153093f5f897bec09e587ef6fc4747c5620cc61676f54c614473dc53a'/>
+      <attribute name='url' value='org.eclipse.osgi.source/org.eclipse.osgi.source-3.10.0.jar'/>
+      <attribute name='size' type='Long' value='1058178'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.eclipse.osgi.source'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.eclipse.osgi.source'/>
+      <attribute name='bundle-version' type='Version' value='3.10.0.v20140606-1445'/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.eclipse.osgi.source'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='0a7f19c7bd5519c9b8d93d3274bfde07cc97864495fb18dd3039bb1abbcbd183'/>
+      <attribute name='url' value='org.eclipse.osgi.source/org.eclipse.osgi.source-3.8.2.jar'/>
+      <attribute name='size' type='Long' value='1160588'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.eclipse.osgi.source'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.eclipse.osgi.source'/>
+      <attribute name='bundle-version' type='Version' value='3.8.2.v20130124-134944'/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.eclipse.osgi'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='singleton' value='true'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='fe74fcfaf4ce91b6fa5844b886c6880f4c4c162330284cc31d1df046f7693ef2'/>
+      <attribute name='url' value='org.eclipse.osgi/org.eclipse.osgi-3.7.2.jar'/>
+      <attribute name='size' type='Long' value='1364409'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.event'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.console'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.eventmgr'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.log'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.launch'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.datalocation'/>
+      <attribute name='version' type='Version' value='1.3.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.debug'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.environment'/>
+      <attribute name='version' type='Version' value='1.3.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.localization'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.pluginconversion'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.resolver'/>
+      <attribute name='version' type='Version' value='1.5.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.runnable'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.security'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.urlconversion'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.signedcontent'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.storagemanager'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.util'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.equinox.log'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework'/>
+      <attribute name='version' type='Version' value='1.6.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.launch'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.hooks.bundle'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.hooks.resolver'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.hooks.service'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.hooks.weaving'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.startlevel'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.framework.wiring'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.condpermadmin'/>
+      <attribute name='version' type='Version' value='1.1.1'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.framework'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.log'/>
+      <attribute name='version' type='Version' value='1.3.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.packageadmin'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.permissionadmin'/>
+      <attribute name='version' type='Version' value='1.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.startlevel'/>
+      <attribute name='version' type='Version' value='1.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.service.url'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.osgi.util.tracker'/>
+      <attribute name='version' type='Version' value='1.5.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.core.runtime.adaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-friends' value='org.eclipse.core.runtime'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.core.runtime.internal.adaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.core.runtime.internal.stats'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-friends' value='org.eclipse.core.runtime'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.baseadaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.baseadaptor.bundlefile'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.baseadaptor.hooks'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.baseadaptor.loader'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.adaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.debug'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.core'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.protocol'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.protocol.bundleentry'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.protocol.bundleresource'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.protocol.reference'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.internal.reliablefile'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.framework.util'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.baseadaptor'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.composite'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.loader'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.loader.buddy'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.module'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.profile'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.resolver'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.serviceregistry'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.permadmin'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.provisional.service.security'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-friends' value='org.eclipse.equinox.security.ui'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.provisional.verifier'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-friends' value='org.eclipse.update.core,org.eclipse.ui.workbench,org.eclipse.equinox.p2.artifact.repository'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.service.security'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-friends' value='org.eclipse.equinox.security.ui'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.internal.signedcontent'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.osgi.service.internal.composite'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.eclipse.equinox.log.internal'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+      <attribute name='bundle-symbolic-name' value='org.eclipse.osgi'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+      <directive name='x-internal' value='true'/>
+    </capability>
+    <capability namespace='osgi.service'>
+      <attribute name='objectClass' value='org.osgi.service.packageadmin.PackageAdmin'/>
+      <directive name='effective' value='active'/>
+    </capability>
+    <capability namespace='osgi.service'>
+      <attribute name='objectClass' value='org.osgi.service.permissionadmin.PermissionAdmin'/>
+      <directive name='effective' value='active'/>
+    </capability>
+    <capability namespace='osgi.service'>
+      <attribute name='objectClass' value='org.osgi.service.startlevel.StartLevel'/>
+      <directive name='effective' value='active'/>
+    </capability>
+    <capability namespace='osgi.service'>
+      <attribute name='objectClass' value='org.eclipse.osgi.service.debug.DebugOptions'/>
+      <directive name='effective' value='active'/>
+    </capability>
+    <capability namespace='osgi.contract'>
+      <attribute name='osgi.contract' value='OSGiFramework'/>
+      <attribute name='version' type='Version' value='4.3.0'/>
+      <directive name='uses' value='org.eclipse.osgi.event,org.eclipse.osgi.framework.console,org.eclipse.osgi.framework.eventmgr,org.eclipse.osgi.framework.log,org.eclipse.osgi.launch,org.eclipse.osgi.service.datalocation,org.eclipse.osgi.service.debug,org.eclipse.osgi.service.environment,org.eclipse.osgi.service.localization,org.eclipse.osgi.service.pluginconversion,org.eclipse.osgi.service.resolver,org.eclipse.osgi.service.runnable,org.eclipse.osgi.service.security,org.eclipse.osgi.service.urlconversion,org.eclipse.osgi.signedcontent,org.eclipse.osgi.storagemanager,org.eclipse.osgi.util,org.eclipse.equinox.log,org.osgi.framework,org.osgi.framework.launch,org.osgi.framework.hooks.bundle,org.osgi.framework.hooks.resolver,org.osgi.framework.hooks.service,org.osgi.framework.hooks.weaving,org.osgi.framework.startlevel,org.osgi.framework.wiring,org.osgi.service.condpermadmin,org.osgi.service.framework,org.osgi.service.log,org.osgi.service.packageadmin,org.osgi.service.permissionadmin,org.osgi.service.startlevel,org.osgi.service.url,org.osgi.util.tracker,org.eclipse.core.runtime.adaptor,org.eclipse.core.runtime.internal.adaptor,org.eclipse.core.runtime.internal.stats,org.eclipse.osgi.baseadaptor,org.eclipse.osgi.baseadaptor.bundlefile,org.eclipse.osgi.baseadaptor.hooks,org.eclipse.osgi.baseadaptor.loader,org.eclipse.osgi.framework.adaptor,org.eclipse.osgi.framework.debug,org.eclipse.osgi.framework.internal.core,org.eclipse.osgi.framework.internal.protocol,org.eclipse.osgi.framework.internal.protocol.bundleentry,org.eclipse.osgi.framework.internal.protocol.bundleresource,org.eclipse.osgi.framework.internal.protocol.reference,org.eclipse.osgi.framework.internal.reliablefile,org.eclipse.osgi.framework.util,org.eclipse.osgi.internal.baseadaptor,org.eclipse.osgi.internal.composite,org.eclipse.osgi.internal.loader,org.eclipse.osgi.internal.loader.buddy,org.eclipse.osgi.internal.module,org.eclipse.osgi.internal.profile,org.eclipse.osgi.internal.resolver,org.eclipse.osgi.internal.serviceregistry,org.eclipse.osgi.internal.permadmin,org.eclipse.osgi.internal.provisional.service.security,org.eclipse.osgi.internal.provisional.verifier,org.eclipse.osgi.internal.service.security,org.eclipse.osgi.internal.signedcontent,org.eclipse.osgi.service.internal.composite,org.eclipse.equinox.log.internal'/>
+    </capability>
+    <requirement namespace='osgi.ee'>
+      <directive name='filter' value='(|(&amp;(osgi.ee=JavaSE)(version=1.5))(&amp;(osgi.ee=OSGi/Minimum)(version=1.2)))'/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.eclipse.osgi.source'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='b9245d44da84581a26b7f35a8e4b630193ee2ea728c8bced585d40bacc4d725e'/>
+      <attribute name='url' value='org.eclipse.osgi.source/org.eclipse.osgi.source-3.6.2.jar'/>
+      <attribute name='size' type='Long' value='974627'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.eclipse.osgi.source'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.eclipse.osgi.source'/>
+      <attribute name='bundle-version' type='Version' value='3.6.2.R36x_v20110210'/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.eclipse.osgi.source'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='9cb53c2b1313ef1aa34242f6160b678cec79ff128b7cb7baba8fef28e4923932'/>
+      <attribute name='url' value='org.eclipse.osgi.source/org.eclipse.osgi.source-3.7.2.jar'/>
+      <attribute name='size' type='Long' value='1118955'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.eclipse.osgi.source'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.eclipse.osgi.source'/>
+      <attribute name='bundle-version' type='Version' value='3.7.2.v20120110-1415'/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.eclipse.osgi.source'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='3d1f3b5e7f5f61f2a4bc57ec45eb1fab14f5365f7d267d0ac83a9823c7248b59'/>
+      <attribute name='url' value='org.eclipse.osgi.source/org.eclipse.osgi.source-3.5.2.jar'/>
+      <attribute name='size' type='Long' value='959750'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.eclipse.osgi.source'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.eclipse.osgi.source'/>
+      <attribute name='bundle-version' type='Version' value='3.5.2.R35x_v20100126'/>
+    </capability>
+  </resource>
+</repository>
