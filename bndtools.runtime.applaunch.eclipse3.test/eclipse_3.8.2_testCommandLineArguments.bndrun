@@ -1,0 +1,30 @@
+-runee: JavaSE-1.6
+
+-runfw: org.eclipse.osgi;version='[3.8.2.v20130124-134944,3.8.2.v20130124-134944]'
+
+-runsystempackages:  \
+	sun.reflect
+
+-runvm: -ea\n\
+	-Dosgi.console
+
+-include: \
+    ${workspace}/cnf/lib/eclipse_3.8.x.lib,\
+    ${workspace}/cnf/lib/develop.lib
+
+-runbundles:  \
+	bndtools.runtime.applaunch.eclipse3;version=latest,\
+	bndtools.runtime.applaunch.eclipse3.test;version=latest,\
+    ${eclipse.core.runtime.bundles},\
+    \
+    ${gogo.bundles},\
+    org.eclipse.equinox.console,\
+    \
+	example.equinox.headless;version='[0.1.0,0.1.1)'
+
+-runproperties: \
+    launch.keep=false,\
+    launch.storage.dir=${project}/rt/cfg,\
+    osgi.instance.area=${project}/rt/data
+    
+-runprogramargs: -application example.equinox.headless.application

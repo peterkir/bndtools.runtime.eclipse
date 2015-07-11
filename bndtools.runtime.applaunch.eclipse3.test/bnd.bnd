@@ -1,0 +1,10 @@
+Bundle-Version: 0.1.0.${tstamp}
+Private-Package:  \
+	bndtools.runtime.applaunch.eclipse3.test
+Test-Cases:  \
+	${classes;CONCRETE;EXTENDS;junit.framework.TestCase}
+
+-buildpath:  \
+	org.eclipse.osgi;version='[3.6,3.10)',\
+	org.eclipse.equinox.app;version='[1.3,2)',\
+	${junit}

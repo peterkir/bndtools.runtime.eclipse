@@ -6,3 +6,4 @@ Bundle-Activator: bndtools.runtime.applaunch.eclipse4.Activator
 Bundle-Version: 0.1.0.${tstamp;yyyyMMdd-HHmm}
 Bundle-License: http://www.opensource.org/licenses/eclipse-1.0.php
 Include-Resource: OSGI-OPT/license.html=epl-v10.html
+Require-Bundle: org.eclipse.osgi;bundle-version="[3.10,4)"
