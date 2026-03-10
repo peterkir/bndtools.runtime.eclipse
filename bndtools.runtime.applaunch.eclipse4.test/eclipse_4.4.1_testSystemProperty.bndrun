@@ -1,0 +1,34 @@
+-runee: JavaSE-1.6
+
+-runfw: org.eclipse.osgi;version='[3.10.0,3.10.0]'
+
+-runsystempackages: \
+	sun.reflect
+
+-runvm: -ea\n\
+	-DtestVmArg1=eclipse4testvalue
+
+-include: \
+    ${workspace}/cnf/lib/eclipse_4.4.x.lib,\
+    ${workspace}/cnf/lib/develop.lib
+
+-runbundles: \
+	bndtools.runtime.applaunch.eclipse4;version=latest,\
+	bndtools.runtime.applaunch.eclipse4.test;version=latest,\
+    ${eclipse.core.runtime.bundles},\
+    \
+	example.equinox.headless;version='[0.1.0,0.1.1)'
+
+-runproperties: \
+    launch.keep=false,\
+    launch.storage.dir=${project}/rt/cfg,\
+    osgi.instance.area=${project}/rt/data
+
+-runprogramargs: \
+    -application example.equinox.headless.application \
+    -os linux \
+    -ws gtk \
+    -arch x86_64 \
+    -nl en_US \
+    -clean \
+    -consoleLog
