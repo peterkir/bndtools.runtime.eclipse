@@ -24,14 +24,5 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
 
-      - name: Build bndtools.runtime.applaunch.eclipse3
-        run: ant -f bndtools.runtime.applaunch.eclipse3/build.xml build
-
-      - name: Build bndtools.runtime.applaunch.eclipse4
-        run: ant -f bndtools.runtime.applaunch.eclipse4/build.xml build
-
-      - name: Build bndtools.runtime.applaunch.eclipse3.test
-        run: ant -f bndtools.runtime.applaunch.eclipse3.test/build.xml build
-
-      - name: Build bndtools.runtime.applaunch.eclipse4.test
-        run: ant -f bndtools.runtime.applaunch.eclipse4.test/build.xml build
+      - name: Build with Gradle
+        run: ./gradlew build -x testOSGi
