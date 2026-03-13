@@ -157,7 +157,6 @@ class LauncherTracker extends ServiceTracker {
     private void prepareEnvService(final BundleContext context) {
         String[] parameters = null;
         try {
-            @SuppressWarnings("unchecked")
             ServiceReference[] serviceReferences = context.getServiceReferences("aQute.launcher.Launcher",
                                                                                    "(launcher.arguments=*)");
             if ( (serviceReferences != null) && (serviceReferences.length > 0)) {

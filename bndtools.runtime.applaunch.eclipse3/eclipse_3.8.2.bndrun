@@ -1,0 +1,24 @@
+-runee: JavaSE-1.8
+
+-runfw: org.eclipse.osgi;version='[3.8,4)'
+-runsystempackages:  \
+	sun.reflect
+-runvm: -ea\n\
+	-DvmArg1
+
+-runrequires: \
+	${eclipse.core.runtime.bundles},\
+	${gogo.bundles},\
+	bnd.identity;id='example.equinox.headless',\
+	bnd.identity;id='bndtools.runtime.applaunch.eclipse3'
+
+-runproperties: \
+    launch.keep=false,\
+    launch.storage.dir=${project}/rt/cfg,\
+    osgi.instance.area=${project}/rt/data
+    
+-runprogramargs: -application example.equinox.headless.application
+
+-runblacklist: bnd.identity;id='biz.aQute.launcher';version='[7.0.0,8)'
+
+-runbundles: \

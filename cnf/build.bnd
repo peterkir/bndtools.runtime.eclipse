@@ -2,7 +2,6 @@
 ## BND BUILD SETTINGS ##
 ########################
 
-
 ## Global defaults are loaded from the bnd library (as shown below), place your
 ## specific settings here. Additional settings are inherited from ext/*.bnd and
 ## they will be overridden by anything you specify in this file.
@@ -12,9 +11,56 @@ javac.source:          1.8
 javac.target:          1.8
 javac.debug:           on
 
-## Bnd Options
--sources:              true
+Bundle-Version: 0.1.0.${tstamp;yyyyMMdd-HHmmss}
 
 ## Git revision information in bundle manifests
 Git-Descriptor:        ${system-allow-fail;git describe --dirty --always}
 Git-SHA:               ${system-allow-fail;git rev-list -1 HEAD}
+
+-plugin.ecl3: aQute.bnd.repository.p2.provider.P2Repository;\
+		name                ='Eclipse_3.8_R-3.8.2-201301310800';\
+		url                 ='https://archive.eclipse.org/eclipse/updates/3.8/R-3.8.2-201301310800/'
+
+-plugin.ecl4: aQute.bnd.repository.p2.provider.P2Repository;\
+		name                ='Eclipse_4.10_R-4.10-201812060815';\
+		url                 ='https://archive.eclipse.org/eclipse/updates/4.10/R-4.10-201812060815/'
+
+# bundle macros
+
+gogo.bundles: \
+	bnd.identity;id='org.apache.felix.gogo.command',\
+	bnd.identity;id='org.apache.felix.gogo.runtime',\
+	bnd.identity;id='org.apache.felix.gogo.shell'
+
+eclipse.core.runtime.bundles: \
+	bnd.identity;id='org.eclipse.core.contenttype',\
+	bnd.identity;id='org.eclipse.core.jobs',\
+	bnd.identity;id='org.eclipse.core.runtime',\
+	bnd.identity;id='org.eclipse.equinox.app',\
+	bnd.identity;id='org.eclipse.equinox.common',\
+	bnd.identity;id='org.eclipse.equinox.preferences',\
+	bnd.identity;id='org.eclipse.equinox.registry',\
+	bnd.identity;id='org.eclipse.osgi.services'
+
+eclipse.jface.bundles: \
+    org.eclipse.swt,\
+    org.eclipse.jface,\
+    org.eclipse.core.commands
+
+eclipse.swt.linux.gtk.x86_64.bundles: \
+    org.eclipse.swt.gtk.linux.x86_64
+
+eclipse.swt.win32.x86_64.bundles: \
+    org.eclipse.swt.win32.win32.x86_64
+
+eclipse.ui.bundles: \
+    ${eclipse.jface.bundles},\
+    org.eclipse.ui,\
+    org.eclipse.ui.workbench,\
+    org.eclipse.help,\
+    org.eclipse.core.expressions,\
+    com.ibm.icu,\
+    org.eclipse.jface.databinding,\
+    org.eclipse.core.databinding.observable,\
+    org.eclipse.core.databinding.property,\
+    org.eclipse.core.databinding

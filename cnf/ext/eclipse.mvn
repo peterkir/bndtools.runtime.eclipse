@@ -1,3 +1,0 @@
-# Eclipse Platform bundles from Maven Central
-# Used by the test projects that need org.eclipse.equinox.app
-org.eclipse.platform:org.eclipse.equinox.app:1.3.400

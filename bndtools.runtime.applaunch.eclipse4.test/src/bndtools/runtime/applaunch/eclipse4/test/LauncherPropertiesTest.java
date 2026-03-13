@@ -64,7 +64,7 @@ public class LauncherPropertiesTest extends TestCase {
      */
     public void testApplicationContextServiceAvailable() throws Exception {
         assertNotNull("BundleContext must not be null", context);
-        ServiceReference srv = context
+        ServiceReference<?> srv = context
                 .getServiceReference(IApplicationContext.class.getName());
         assertNotNull("IApplicationContext service must be registered in the "
                 + "OSGi service registry", srv);
@@ -86,7 +86,8 @@ public class LauncherPropertiesTest extends TestCase {
         ServiceReference srv = context
                 .getServiceReference(IApplicationContext.class.getName());
         assertNotNull(srv);
-        IApplicationContext iac = (IApplicationContext) context.getService(srv);
+        @SuppressWarnings("unchecked")
+		IApplicationContext iac = (IApplicationContext) context.getService(srv);
         assertNotNull("IApplicationContext service object must not be null", iac);
         Map arguments = iac.getArguments();
         assertNotNull("IApplicationContext arguments map must not be null",

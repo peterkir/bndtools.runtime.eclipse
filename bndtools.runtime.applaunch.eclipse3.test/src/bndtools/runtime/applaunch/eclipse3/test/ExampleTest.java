@@ -21,11 +21,11 @@ public class ExampleTest extends TestCase {
 
 	public void testArgumentsService() throws Exception {
 		assertNotNull(context);
-		ServiceReference srv = context
+		ServiceReference<?> srv = context
 				.getServiceReference(IApplicationContext.class.getName());
 		assertNotNull(srv);
 		IApplicationContext iac = (IApplicationContext) context.getService(srv);
-		Map arguments = iac.getArguments();
+		Map<?, ?> arguments = iac.getArguments();
 		assertEquals("example.equinox.headless.application",
 				arguments.get("eclipse.application"));
 	}
