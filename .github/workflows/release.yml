@@ -1,0 +1,76 @@
+name: Release
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      publishing_type:
+        description: 'Sonatype publishing type'
+        required: false
+        default: 'USER_MANAGED'
+        type: choice
+        options:
+          - USER_MANAGED
+          - AUTOMATIC
+
+env:
+  LC_ALL: en_US.UTF-8
+  GRADLE_OPTS: >-
+    -Dorg.gradle.parallel=true
+
+defaults:
+  run:
+    shell: bash
+
+permissions:
+  contents: read
+
+jobs:
+  release:
+    name: Build and Upload to Sonatype Central Portal
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Build
+        # testOSGi is excluded as it is known to be flaky in CI environments
+        run: ./gradlew build -x testOSGi
+
+      - name: Publish to local Maven layout (dist/bundles)
+        # ':release' is the standard bnd workspace Gradle task that deploys all
+        # bundles to every repository listed under -releaserepo.* in repositories.bnd,
+        # including the SonatypeRelease MavenBndRepository targeting dist/bundles.
+        run: ./gradlew :release
+        env:
+          SONATYPE_BEARER: ${{ secrets.SONATYPE_BEARER }}
+
+      - name: Upload to Sonatype Central Portal
+        run: |
+          PUBLISHING_TYPE="${{ github.event.inputs.publishing_type || 'USER_MANAGED' }}"
+          ./.github/scripts/sonatype-upload.sh \
+            --publishing-type "${PUBLISHING_TYPE}" \
+            dist/bundles
+        env:
+          SONATYPE_BEARER: ${{ secrets.SONATYPE_BEARER }}
+
+      - name: Upload dist/bundles as workflow artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-bundles
+          path: dist/bundles/
+          retention-days: 30
