@@ -2,51 +2,57 @@
 ## BND BUILD SETTINGS ##
 ########################
 
-
 ## Global defaults are loaded from the bnd library (as shown below), place your
 ## specific settings here. Additional settings are inherited from ext/*.bnd and
 ## they will be overridden by anything you specify in this file.
 
-## General Options
-#project.dependson:     ${p-dependson;:}
-#project.bootclasspath: ${p-bootclasspath;:}
-#project.buildpath:     ${p-buildpath;:}
-#project.sourcepath:    ${p-sourcepath;:}
-#project.allsourcepath: ${p-allsourcepath;:}
-#project.output:        ${p-output}
-#project.testpath:      ${p-testpath;:}
-
-#-verbose:              true
-#project:               ${basedir}
-#src:                   src
-#bin:                   bin
-#testsrc:               test
-#testbin:               bin_test
-#target-dir:            generated
-#target:                ${project}/${target-dir}
-#build:                 ${workspace}/cnf
-#p:                     ${basename;${project}}
-#project.name:          ${p}
-#plugin-dir:            ${build}/plugins
-
 ## Java Compiler Options
-#java:                  java
-#javac:                 javac
-#javac.source:          1.5
-#javac.target:          1.5
-#javac.debug:           on
+javac.source:          1.8
+javac.target:          1.8
+javac.debug:           on
 
-## Bnd Options
-#-sources:              true
-#-sourcepath:           ${project}/src
+Bundle-Version: 0.1.0.${tstamp;yyyyMMdd-HHmmss}
 
+## Git revision information in bundle manifests
+Git-Descriptor:        ${system-allow-fail;git describe --dirty --always}
+Git-SHA:               ${system-allow-fail;git rev-list -1 HEAD}
 
-## Properties from ext/*.bnd can be referenced in order to extend them. For
-## example, to add one additional plugin to the list defined in
-## ext/repositories.bnd:
-# -plugin: ${ext.repositories.-plugin}, org.example.MyPlugin
+# bundle macros
 
+gogo.bundles: \
+	bnd.identity;id='org.apache.felix.gogo.command',\
+	bnd.identity;id='org.apache.felix.gogo.runtime',\
+	bnd.identity;id='org.apache.felix.gogo.shell'
 
-## If you use git, you might want to uncomment the following lines:
-# Git-Descriptor:       ${system-allow-fail;git describe --dirty --always}
-# Git-SHA:              ${system-allow-fail;git rev-list -1 HEAD}
+eclipse.core.runtime.bundles: \
+	bnd.identity;id='org.eclipse.core.contenttype',\
+	bnd.identity;id='org.eclipse.core.jobs',\
+	bnd.identity;id='org.eclipse.core.runtime',\
+	bnd.identity;id='org.eclipse.equinox.app',\
+	bnd.identity;id='org.eclipse.equinox.common',\
+	bnd.identity;id='org.eclipse.equinox.preferences',\
+	bnd.identity;id='org.eclipse.equinox.registry',\
+	bnd.identity;id='org.eclipse.osgi.services'
+
+eclipse.jface.bundles: \
+    org.eclipse.swt,\
+    org.eclipse.jface,\
+    org.eclipse.core.commands
+
+eclipse.swt.linux.gtk.x86_64.bundles: \
+    org.eclipse.swt.gtk.linux.x86_64
+
+eclipse.swt.win32.x86_64.bundles: \
+    org.eclipse.swt.win32.win32.x86_64
+
+eclipse.ui.bundles: \
+    ${eclipse.jface.bundles},\
+    org.eclipse.ui,\
+    org.eclipse.ui.workbench,\
+    org.eclipse.help,\
+    org.eclipse.core.expressions,\
+    com.ibm.icu,\
+    org.eclipse.jface.databinding,\
+    org.eclipse.core.databinding.observable,\
+    org.eclipse.core.databinding.property,\
+    org.eclipse.core.databinding

@@ -1,0 +1,32 @@
+-runee: JavaSE-1.8
+
+-runfw: org.eclipse.osgi;version='[3.10.0,4)'
+
+-runsystempackages: \
+	sun.reflect
+
+-runvm: -ea\n\
+	-DtestVmArg1=eclipse4testvalue
+
+-runproperties: \
+    launch.keep=false,\
+    launch.storage.dir=${project}/rt/cfg,\
+    osgi.instance.area=${project}/rt/data
+
+-runprogramargs: \
+    -application example.equinox.headless.application \
+    -os linux \
+    -ws gtk \
+    -arch x86_64 \
+    -nl en_US \
+    -clean \
+    -consoleLog
+
+-runrequires: bnd.identity;id='bndtools.runtime.applaunch.eclipse4.test'
+-runbundles: \
+	bndtools.runtime.applaunch.eclipse4.test;version=snapshot,\
+	org.eclipse.equinox.app;version='[1.4.0,1.4.1)',\
+	org.eclipse.equinox.common;version='[3.10.200,3.10.201)',\
+	org.eclipse.equinox.registry;version='[3.8.200,3.8.201)',\
+	org.hamcrest.core;version='[1.3.0,1.3.1)',\
+	org.junit;version='[4.12.0,4.12.1)'

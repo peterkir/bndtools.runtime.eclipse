@@ -146,7 +146,7 @@ class LauncherTracker extends ServiceTracker {
     }
 
     private String getBsn(final Bundle bundle) {
-        String bsn = bundle.getHeaders().get(Constants.BUNDLE_SYMBOLICNAME);
+        String bsn = (String) bundle.getHeaders().get(Constants.BUNDLE_SYMBOLICNAME);
         int semiColonIndex = bsn.indexOf(';');
         if (semiColonIndex > -1) {
             bsn = bsn.substring(0, semiColonIndex);
@@ -157,7 +157,7 @@ class LauncherTracker extends ServiceTracker {
     private void prepareEnvService(final BundleContext context) {
         String[] parameters = null;
         try {
-            ServiceReference<?>[] serviceReferences = context.getServiceReferences("aQute.launcher.Launcher",
+            ServiceReference[] serviceReferences = context.getServiceReferences("aQute.launcher.Launcher",
                                                                                    "(launcher.arguments=*)");
             if ( (serviceReferences != null) && (serviceReferences.length > 0)) {
                 Object property = serviceReferences[0].getProperty("launcher.arguments");
