@@ -24,5 +24,13 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
 
-      - name: Build with Gradle
+      - name: Set up JDK 8 (compilation toolchain)
+        uses: actions/setup-java@v4
+        with:
+          java-version: '8'
+          distribution: 'temurin'
+
+      - name: Build with Gradle (Java 11 runtime, Java 8 target)
+        env:
+          JAVA_HOME: ${{ env.JAVA_HOME_11_X64 }}
         run: ./gradlew build -x testOSGi

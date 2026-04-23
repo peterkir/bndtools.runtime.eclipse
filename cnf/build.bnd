@@ -17,14 +17,6 @@ Bundle-Version: 0.1.0.${tstamp;yyyyMMdd-HHmmss}
 Git-Descriptor:        ${system-allow-fail;git describe --dirty --always}
 Git-SHA:               ${system-allow-fail;git rev-list -1 HEAD}
 
--plugin.ecl3: aQute.bnd.repository.p2.provider.P2Repository;\
-		name                ='Eclipse_3.8_R-3.8.2-201301310800';\
-		url                 ='https://archive.eclipse.org/eclipse/updates/3.8/R-3.8.2-201301310800/'
-
--plugin.ecl4: aQute.bnd.repository.p2.provider.P2Repository;\
-		name                ='Eclipse_4.10_R-4.10-201812060815';\
-		url                 ='https://archive.eclipse.org/eclipse/updates/4.10/R-4.10-201812060815/'
-
 # bundle macros
 
 gogo.bundles: \
