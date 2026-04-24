@@ -5,6 +5,11 @@
 		name=Eclipse Platform; \
 		releaseUrl=https://repo.maven.apache.org/maven2/; \
 		index=${.}/eclipse.mvn,\
-	aQute.lib.deployer.FileRepo; name=Build; location=${workspace}/cnf/buildrepo
+	aQute.lib.deployer.FileRepo; name=Build; location=${workspace}/cnf/buildrepo,\
+	aQute.bnd.repository.maven.provider.MavenBndRepository; \
+		name=SonatypeRelease; \
+		releaseUrl=${fileuri;${workspace}/dist/bundles}; \
+		noupdateOnRelease=true
 
 -releaserepo: Release
+-releaserepo.sonatype: SonatypeRelease
