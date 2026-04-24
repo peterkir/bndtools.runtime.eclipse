@@ -5,8 +5,12 @@
 -runsystempackages: \
 	sun.reflect
 
--runvm: -ea\n\
-	-DtestVmArg1=eclipse4testvalue
+-runpath: \
+    biz.aQute.launcher
+
+-runvm: \
+    -ea,\
+    -DtestVmArg1=eclipse4testvalue
 
 -runproperties: \
     launch.keep=false,\
@@ -28,5 +32,6 @@
 	org.eclipse.equinox.app;version='[1.4.0,1.4.1)',\
 	org.eclipse.equinox.common;version='[3.10.200,3.10.201)',\
 	org.eclipse.equinox.registry;version='[3.8.200,3.8.201)',\
-	org.hamcrest.core;version='[1.3.0,1.3.1)',\
-	org.junit;version='[4.12.0,4.12.1)'
+	org.apache.servicemix.bundles.junit;version='[4.13.2,4.13.3)',\
+	org.osgi.test.common,\
+	org.osgi.test.junit4

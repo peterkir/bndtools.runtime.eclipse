@@ -1,13 +1,17 @@
 package bndtools.runtime.applaunch.eclipse4.test;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+
 import java.util.Map;
 
-import junit.framework.TestCase;
-
 import org.eclipse.equinox.app.IApplicationContext;
+import org.junit.Rule;
+import org.junit.Test;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.FrameworkUtil;
-import org.osgi.framework.ServiceReference;
+import org.osgi.test.common.annotation.InjectService;
+import org.osgi.test.junit4.service.ServiceRule;
 
 /**
  * OSGi integration tests verifying that the bndtools.runtime.applaunch.eclipse4
@@ -31,10 +35,21 @@ import org.osgi.framework.ServiceReference;
  * </ul>
  * </p>
  */
-public class LauncherPropertiesTest extends TestCase {
+public class LauncherPropertiesTest {
 
     private final BundleContext context = FrameworkUtil.getBundle(
             this.getClass()).getBundleContext();
+
+    @Rule
+    public ServiceRule serviceRule = new ServiceRule();
+
+    /**
+     * Injected by {@link ServiceRule}; waits up to 5 s for the Eclipse
+     * application to register {@link IApplicationContext}, eliminating the
+     * race condition that caused intermittent test failures.
+     */
+    @InjectService(timeout = 5000)
+    IApplicationContext iac;
 
     // -----------------------------------------------------------------------
     // VM argument tests
@@ -49,6 +64,7 @@ public class LauncherPropertiesTest extends TestCase {
      * {@code -runvm: -DtestVmArg1=eclipse4testvalue}
      * </p>
      */
+    @Test
     public void testVMArguments() throws Exception {
         assertEquals("eclipse4testvalue", System.getProperty("testVmArg1"));
     }
@@ -62,12 +78,12 @@ public class LauncherPropertiesTest extends TestCase {
      * and retrievable from the service registry after the Eclipse application
      * launcher has initialised.
      */
+    @Test
     public void testApplicationContextServiceAvailable() throws Exception {
-        assertNotNull("BundleContext must not be null", context);
-        ServiceReference<?> srv = context
-                .getServiceReference(IApplicationContext.class.getName());
+        // ServiceRule already waited up to 5 s for iac to be injected;
+        // reaching here means the service was available in time.
         assertNotNull("IApplicationContext service must be registered in the "
-                + "OSGi service registry", srv);
+                + "OSGi service registry", iac);
     }
 
     /**
@@ -82,12 +98,8 @@ public class LauncherPropertiesTest extends TestCase {
      * </p>
      */
     @SuppressWarnings("rawtypes")
+    @Test
     public void testEclipseApplicationArgument() throws Exception {
-        ServiceReference srv = context
-                .getServiceReference(IApplicationContext.class.getName());
-        assertNotNull(srv);
-        @SuppressWarnings("unchecked")
-		IApplicationContext iac = (IApplicationContext) context.getService(srv);
         assertNotNull("IApplicationContext service object must not be null", iac);
         Map arguments = iac.getArguments();
         assertNotNull("IApplicationContext arguments map must not be null",
@@ -109,6 +121,7 @@ public class LauncherPropertiesTest extends TestCase {
      * {@code -runprogramargs: ... -os linux ...}
      * </p>
      */
+    @Test
     public void testOsArgument() throws Exception {
         String osProperty = context.getProperty("osgi.os");
         assertNotNull("osgi.os property must be set when -os argument is "
@@ -125,6 +138,7 @@ public class LauncherPropertiesTest extends TestCase {
      * {@code -runprogramargs: ... -ws gtk ...}
      * </p>
      */
+    @Test
     public void testWsArgument() throws Exception {
         String wsProperty = context.getProperty("osgi.ws");
         assertNotNull("osgi.ws property must be set when -ws argument is "
@@ -141,6 +155,7 @@ public class LauncherPropertiesTest extends TestCase {
      * {@code -runprogramargs: ... -arch x86_64 ...}
      * </p>
      */
+    @Test
     public void testArchArgument() throws Exception {
         String archProperty = context.getProperty("osgi.arch");
         assertNotNull("osgi.arch property must be set when -arch argument is "
@@ -157,6 +172,7 @@ public class LauncherPropertiesTest extends TestCase {
      * {@code -runprogramargs: ... -nl en_US ...}
      * </p>
      */
+    @Test
     public void testNlArgument() throws Exception {
         String nlProperty = context.getProperty("osgi.nl");
         assertNotNull("osgi.nl property must be set when -nl argument is "
@@ -173,6 +189,7 @@ public class LauncherPropertiesTest extends TestCase {
      * {@code -runprogramargs: ... -clean ...}
      * </p>
      */
+    @Test
     public void testCleanArgument() throws Exception {
         assertEquals("osgi.clean must be \"true\" when -clean flag is present",
                 "true", context.getProperty("osgi.clean"));
@@ -187,6 +204,7 @@ public class LauncherPropertiesTest extends TestCase {
      * {@code -runprogramargs: ... -consoleLog ...}
      * </p>
      */
+    @Test
     public void testConsoleLogArgument() throws Exception {
         assertEquals("eclipse.consoleLog must be \"true\" when -consoleLog "
                 + "flag is present",
@@ -207,6 +225,7 @@ public class LauncherPropertiesTest extends TestCase {
      * {@code -runproperties: launch.keep=false}
      * </p>
      */
+    @Test
     public void testRunProperties() throws Exception {
         assertEquals("false", context.getProperty("launch.keep"));
     }

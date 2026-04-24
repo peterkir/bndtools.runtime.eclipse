@@ -1,0 +1,5 @@
+# OSGi Testing Support — JUnit 4 rules and service injection utilities
+org.osgi:org.osgi.test.common:1.3.0
+org.osgi:org.osgi.test.junit4:1.3.0
+org.apache.servicemix.bundles:org.apache.servicemix.bundles.junit:4.13.2_1
+org.apache.servicemix.bundles:org.apache.servicemix.bundles.hamcrest:1.3_1

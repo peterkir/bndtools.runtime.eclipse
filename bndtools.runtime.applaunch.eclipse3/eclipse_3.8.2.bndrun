@@ -21,4 +21,3 @@
 
 -runblacklist: bnd.identity;id='biz.aQute.launcher';version='[7.0.0,8)'
 
--runbundles: \

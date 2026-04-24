@@ -7,7 +7,7 @@ import junit.framework.TestCase;
 import org.eclipse.equinox.app.IApplicationContext;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.FrameworkUtil;
-import org.osgi.framework.ServiceReference;
+import org.osgi.util.tracker.ServiceTracker;
 
 public class ExampleTest extends TestCase {
 
@@ -22,10 +22,12 @@ public class ExampleTest extends TestCase {
 	public void testArgumentsService() throws Exception {
 		assertNotNull(context);
 		@SuppressWarnings("rawtypes")
-		ServiceReference srv = context
-				.getServiceReference(IApplicationContext.class.getName());
-		assertNotNull(srv);
-		IApplicationContext iac = (IApplicationContext) context.getService(srv);
+		ServiceTracker tracker = new ServiceTracker(context,
+				IApplicationContext.class.getName(), null);
+		tracker.open();
+		IApplicationContext iac = (IApplicationContext) tracker.waitForService(5000);
+		tracker.close();
+		assertNotNull("IApplicationContext service was not registered within 5 s", iac);
 		@SuppressWarnings("rawtypes")
 		Map arguments = iac.getArguments();
 		assertEquals("example.equinox.headless.application",

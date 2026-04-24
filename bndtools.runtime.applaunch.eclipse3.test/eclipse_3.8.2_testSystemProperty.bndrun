@@ -1,23 +1,19 @@
--runee: JavaSE-1.6
+-runee: JavaSE-1.8
 
 -runfw: org.eclipse.osgi;version='[3.8.2.v20130124-134944,3.8.2.v20130124-134944]'
 
 -runsystempackages:  \
 	sun.reflect
 
--include: \
-    ${workspace}/cnf/lib/eclipse_3.8.x.lib,\
-    ${workspace}/cnf/lib/develop.lib
- 	
+-runpath: \
+    biz.aQute.launcher
 
--runbundles:  \
-	bndtools.runtime.applaunch.eclipse3;version=latest,\
-    ${eclipse.core.runtime.bundles},\
-    \
-	example.equinox.headless;version='[0.1.0,0.1.1)'
-    \
-	bndtools.runtime.applaunch.eclipse3.test;version=latest,\
-
+-runbundles: \
+	org.apache.servicemix.bundles.junit;version='[4.13.2,4.13.3)',\
+	bndtools.runtime.applaunch.eclipse3.test;version=snapshot,\
+	org.eclipse.equinox.app;version='[1.4.0,1.4.1)',\
+	org.eclipse.equinox.common;version='[3.10.200,3.10.201)',\
+	org.eclipse.equinox.registry;version='[3.8.200,3.8.201)'
 -runproperties: \
     launch.keep=false,\
     launch.storage.dir=${project}/rt/cfg,\
